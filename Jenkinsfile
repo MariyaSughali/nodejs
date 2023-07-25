@@ -24,4 +24,4 @@ node {
         bat 'docker push sughali/node_docker:latest'
         }
     }
-}
+
