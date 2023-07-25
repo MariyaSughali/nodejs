@@ -7,7 +7,7 @@ node {
 
     stage('Build image') {
        bat 'cd C:\\Users\\MariyaSughali\\Desktop\\node_docker'
-       bat 'docker build -t sughali/node_docker:$BUILT_NUMBER .'
+       bat 'docker build -t sughali/node_docker:${env.BUILD_NUMBER} .'
     }
 
     //stage('Test image') {
