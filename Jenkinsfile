@@ -12,7 +12,9 @@ pipeline{
     
     stages{
         stage('Clone repository') {
+            steps{
       git 'https://github.com/MariyaSughali/nodejs.git'
+            }
     }
         
        stage('Building image') {
